@@ -1,6 +1,6 @@
 Package: gwasvcf
 Title: Tools for dealing with GWAS summary data in VCF format
-Version: 0.1.0
+Version: 0.1.0-1
 Authors@R: 
     person(given = "Gibran",
            family = "Hemani",
@@ -37,18 +37,7 @@ Imports:
   RSQLite,
   rlang
 Remotes:
-  github::explodecomputer/genetics.binaRies,
-  bioc::3.11/snpStats,
-  bioc::3.11/BiocGenerics,
-  bioc::3.11/Biostrings,
-  bioc::3.11/S4Vectors,
-  bioc::3.11/IRanges,
-  bioc::3.11/GenomicRanges,
-  bioc::3.11/GenomeInfoDb,
-  bioc::3.11/SummarizedExperiment,
-  bioc::3.11/Rhtslib,
-  bioc::3.11/Rsamtools,
-  bioc::3.11/VariantAnnotation
+  github::explodecomputer/genetics.binaRies
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: false
